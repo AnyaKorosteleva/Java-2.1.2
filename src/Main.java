@@ -5,7 +5,7 @@ public class Main {
         int bonus = 1000;
         int accaunt = 200;
         int balance;
-        int commonBonus = refill/100;
+        int commonBonus = refill / 100;
         if (refill < bonus) {commonBonus = 0;}
         if (refill < bonus) {balance = refill + accaunt ;}
         else {balance = refill + accaunt + commonBonus ;}
